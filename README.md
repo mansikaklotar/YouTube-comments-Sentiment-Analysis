@@ -153,16 +153,16 @@ youtube = build(
 # 📸 Screenshots
 
 ## 🏠 Home Page
-![Home](screenshots/Home.png)
+![Home](Home.png)
 
 ## 📊 Graph
-![Graph](screenshots/Graph.png)
+![Graph](Graph.png)
 
 ## 📈 Trend
-![Trend](screenshots/Trend.png)
+![Trend](Trend.png)
 
 ## 📄 Report
-![Report](screenshots/Report.png)
+![Report](Report.png)
 
 
 #  Future Improvements
