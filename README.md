@@ -16,9 +16,7 @@ It also provides:
 - 🖥 Interactive Dashboard UI
 
 
-
 #  Features
-
 ##  YouTube Sentiment Analysis
 - Fetches real YouTube comments using YouTube Data API
 - Performs sentiment classification
@@ -28,13 +26,11 @@ It also provides:
   - Neutral Comments
 
 
-This feature is addition (it is under procces so you can use for improve in future)
-##  X (Twitter) Sentiment Analysis
+##  X (Twitter) Sentiment Analysis - This feature is addition (it is under procces so you can use for improve in future)
 - Keyword-based sentiment analysis
 - Simulated tweet generation
 - Sentiment classification and visualization
-
-
+  
 
 ##  Sentiment Graph Visualization
 - Bar graph visualization of:
@@ -43,11 +39,9 @@ This feature is addition (it is under procces so you can use for improve in futu
   - Neutral Comments
 
 
-
 ##  Trend Analysis
 - Day-wise comment trend visualization
 - Helps understand audience engagement over time
-
 
 
 ##  PDF Report Generation
@@ -56,7 +50,6 @@ This feature is addition (it is under procces so you can use for improve in futu
   - Sentiment summary
   - Sentiment graph
   - Full comments list
-
 
 
 #  Sentiment Analysis Logic
@@ -74,7 +67,6 @@ This project uses the **TextBlob NLP library** for sentiment analysis.
 
 
 #  Technologies Used
-
 ## Programming Language
 - Python
 
@@ -88,7 +80,6 @@ This project uses the **TextBlob NLP library** for sentiment analysis.
 
 ## APIs
 - YouTube Data API v3
-
 
 #  Installation
 
