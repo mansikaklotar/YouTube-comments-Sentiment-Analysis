@@ -1,2 +1,170 @@
-# YouTube-comments-Sentiment-Analysis
-AI-powered Social Media Sentiment Analyzer built with Python and Streamlit. This project analyzes YouTube comments using NLP (TextBlob) to classify sentiments as Positive, Negative, or Neutral. It includes sentiment graphs, trend analysis, PDF report generation, and interactive data visualization.
+# 🎬📊 Social Media Sentiment Analyzer
+
+An AI-powered Social Media Sentiment Analyzer developed using **Python** and **Streamlit**.  
+This project analyzes sentiments from **YouTube comments** and **X (Twitter) posts** using **Natural Language Processing (NLP)** techniques.
+
+The application classifies comments into:
+
+- 😊 Positive  
+- 😡 Negative  
+- 😐 Neutral  
+
+It also provides:
+- 📊 Sentiment Graphs
+- 📈 Trend Analysis
+- 📄 PDF Report Generation
+- 🖥 Interactive Dashboard UI
+
+
+
+# 🚀 Features
+
+## 🎬 YouTube Sentiment Analysis
+- Fetches real YouTube comments using YouTube Data API
+- Performs sentiment classification
+- Displays comments in separate tables:
+  - Positive Comments
+  - Negative Comments
+  - Neutral Comments
+
+
+
+## 🐦 X (Twitter) Sentiment Analysis
+- Keyword-based sentiment analysis
+- Simulated tweet generation
+- Sentiment classification and visualization
+
+
+
+## 📊 Sentiment Graph Visualization
+- Bar graph visualization of:
+  - Positive Comments
+  - Negative Comments
+  - Neutral Comments
+
+
+
+## 📈 Trend Analysis
+- Day-wise comment trend visualization
+- Helps understand audience engagement over time
+
+
+
+## 📄 PDF Report Generation
+- Generates downloadable PDF reports
+- Includes:
+  - Sentiment summary
+  - Sentiment graph
+  - Full comments list
+
+
+
+# 🧠 Sentiment Analysis Logic
+
+This project uses the **TextBlob NLP library** for sentiment analysis.
+
+### Polarity-Based Classification
+
+| Polarity Score | Sentiment |
+|----------------|-----------|
+| > 0.1 | Positive |
+| < -0.1 | Negative |
+| Between -0.1 and 0.1 | Neutral |
+
+
+
+# 🛠 Technologies Used
+
+## Programming Language
+- Python
+
+## Libraries & Frameworks
+- Streamlit
+- Pandas
+- TextBlob
+- Matplotlib
+- ReportLab
+- Google API Python Client
+
+## APIs
+- YouTube Data API v3
+
+
+# ⚙️ Installation
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/your-username/social-media-sentiment-analyzer.git
+```
+
+
+
+## 2️⃣ Open Project Folder
+
+```bash
+cd social-media-sentiment-analyzer
+```
+
+
+
+## 3️⃣ Install Required Libraries
+
+```bash
+pip install streamlit
+pip install pandas
+pip install textblob
+pip install matplotlib
+pip install google-api-python-client
+pip install reportlab
+```
+
+
+
+# ▶️ Run Project
+
+```bash
+streamlit run app.py
+```
+
+
+
+# 🔑 API Key Setup
+
+This project requires a **YouTube Data API v3 Key**.
+
+Replace your API key in the following line inside `app.py`:
+
+```python
+youtube = build(
+    'youtube',
+    'v3',
+    developerKey="YOUR_YOUTUBE_API_KEY"
+)
+```
+
+### Important:
+- Never upload your real API key publicly on GitHub.
+- Use environment variables or keep keys private for security.
+
+
+# 💡 Future Improvements
+
+- Real-time X API Integration
+- Instagram Sentiment Analysis
+- AI-Based Recommendation System
+- Advanced NLP Models
+- Word Cloud Visualization
+- Emoji Sentiment Detection
+
+
+
+# 📚 Educational Purpose
+
+This project was developed for academic and learning purposes.
+
+---
+
+# ⭐ GitHub Support
+
+If you like this project, give it a ⭐ on GitHub.
