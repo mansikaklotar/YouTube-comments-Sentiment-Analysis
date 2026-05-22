@@ -10,10 +10,10 @@ The application classifies comments into:
 -  Neutral  
 
 It also provides:
-- 📊 Sentiment Graphs
-- 📈 Trend Analysis
-- 📄 PDF Report Generation
-- 🖥 Interactive Dashboard UI
+-  Sentiment Graphs
+-  Trend Analysis
+-  PDF Report Generation
+-  Interactive Dashboard UI
 
 
 #  Features
@@ -26,10 +26,19 @@ It also provides:
   - Neutral Comments
 
 
-##  X (Twitter) Sentiment Analysis - This feature is addition (it is under procces so you can use for improve in future)
-- Keyword-based sentiment analysis
-- Simulated tweet generation
-- Sentiment classification and visualization
+
+⚠️ The X (Twitter) sentiment analysis module is currently under development.
+
+At present, the module uses simulated/sample tweet data for demonstrating sentiment analysis functionality. Real-time tweet fetching and live API integration will be added in future updates.
+
+### Planned Improvements
+- Real-time X API integration
+- Live tweet fetching
+- Hashtag trend analysis
+- Advanced sentiment prediction
+- Better engagement analytics
+
+This section is included for future scalability and enhancement of the project.
   
 
 ##  Sentiment Graph Visualization
@@ -140,6 +149,20 @@ youtube = build(
 ### Important:
 - Never upload your real API key publicly on GitHub.
 - Use environment variables or keep keys private for security.
+
+# 📸 Screenshots
+
+## 🏠 Home Page
+![Home](screenshots/Home.png)
+
+## 📊 Graph
+![Graph](screenshots/Graph.png)
+
+## 📈 Trend
+![Trend](screenshots/Trend.png)
+
+## 📄 Report
+![Report](screenshots/Report.png)
 
 
 #  Future Improvements
